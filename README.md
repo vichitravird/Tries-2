@@ -8,8 +8,11 @@ A sequence of words forms a valid word square if the kth row and column read the
 For example, the word sequence ["ball","area","lead","lady"] forms a word square because each word reads the same both horizontally and vertically.
 
 b a l l
+
 a r e a
+
 l e a d
+
 l a d y
 
 Note:
@@ -25,17 +28,29 @@ Input:
 Output:
 
 [
+ 
  [ "wall",
-   "area",
-   "lead",
-   "lady"
+ 
+ "area",
+ 
+ "lead",
+ 
+ "lady"
+ 
  ],
+ 
  [ "ball",
-   "area",
-   "lead",
-   "lady"
+ 
+ "area",
+ 
+ "lead",
+ 
+ "lady"
+ 
  ]
+
 ]
+
 
 Explanation:
 
@@ -50,16 +65,27 @@ Input:
 Output:
 
 [
+
  [ "baba",
-   "abat",
-   "baba",
-   "atan"
- ],
- [ "baba",
-   "abat",
-   "baba",
-   "atal"
- ]
+
+"abat",
+
+"baba",
+
+"atan"
+
+],
+
+[ "baba",
+
+"abat",
+
+"baba",
+
+"atal"
+
+]
+
 ]
 
 Explanation:
